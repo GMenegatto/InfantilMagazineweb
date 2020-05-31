@@ -1,0 +1,1340 @@
+/* Reset */
+
+body, h1 ,h2, h3, p, ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #252525;
+    font-family: "Fredoka one";
+}
+
+body p{
+    font-family: "Lato";
+    color: #616161;
+}
+
+body h1, h2, h3{
+    font-family: "Fredoka one";
+    color: #616161;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container::before, .container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* header */
+
+.header-info{
+    background-color: #33C468;
+    padding: 4px 0 1px 0;
+}
+
+.end-header{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.end-header h3 {
+    color: white;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-left: 335px;
+    letter-spacing: 1.3px;
+}
+
+.logos-header{
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+
+.logos-header li{
+    display: inline-block;
+}
+
+.logos-header a{
+    margin-left: 15px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    display: block;
+    margin-left: 10px;
+}
+
+.header{
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.08);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.08);
+
+}
+
+.header .container{
+    padding: 10px 0;
+}
+
+.menu_nav{
+    float: right;
+    
+}
+
+.menu_nav ul{
+    padding: 30px 0;
+    margin-right: 10px;
+}
+
+.menu_nav ul li{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.menu_nav a:hover{
+    color: #F6243E;
+    transition: 0.15s;
+}
+
+/* apresentação */
+.apresentacao-1{
+
+    padding-top: 80px;
+    z-index: -1;
+}
+
+.apresentacao-1 h1{
+    font-size: 48px;
+    color: #F6243E;
+    text-align: center;
+}
+
+.apresentacao-1 p{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    color: #616161;
+}
+
+.apresentacao-1 > p::after{
+    content: "";
+    display: block;
+    margin: 35px auto;
+    width: 460px;
+    height: 2px;
+    background: #33C468;
+}
+
+.apresentacao-1 h2{
+    font-size: 32px;
+    color: #33C468;
+    text-align: center;
+}
+
+.aloja{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.aloja h2::after{
+    content: "";
+    height: 83px;
+    width: 200px;
+    display: block;
+    background: url("../img/Alojastl.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 395px;
+    margin-left: 5px;
+    
+    
+}
+
+.ap_parag{
+    max-width: 490px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.ap_parag p{
+    display: block;
+    font-size: 18px;
+    max-width: 490px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+/* n val */
+
+.nval{
+    background-color: #33C468;
+    box-shadow: -2px -2px 6px 0px rgba(0,0,0,0.26);
+}
+
+.nval h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 36px;
+    color: white;
+}
+
+.sec1,.sec2,.sec3{
+    background-color: white;
+    width: 358px;
+    float: left;
+    border-radius: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.45);
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.45);
+}
+
+.sec1 h2,.sec2 h2,.sec3 h2{
+    text-align: center;
+    color: #252525;
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+.sec1 p,.sec2 p,.sec3 p{
+    width: 300px;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    line-height: 22px;
+}
+
+.sec2{
+    margin-top: 40px;
+}
+.sec1{
+    margin-top: 40px;
+}
+.sec3{
+    margin-top: 190px;
+}
+
+
+.sec3::before{
+    content: "";
+    height: 171px;
+    width: 130px;
+    display: block;
+    background: url("../img/child.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -370px;
+}
+
+.logobco{
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.logobco img{
+    display: block;
+}
+
+.iconnv img{
+    display: block;
+    max-width: 100%;
+    float: right;
+    position: relative;
+    top: 130px;
+}
+
+/* produtos */
+
+.produtos{
+    background-color: #F5F5F5;
+}
+
+.produtos h1{
+    text-align: center;
+    font-size: 40px;
+    color: #33C468;
+    padding-top: 60px;
+}
+
+.produtos h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 261px;
+    background: #E8E8E8;
+    margin: 20px auto 40px auto;
+}
+
+.produtos p{
+    max-width: 594px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.produtos p::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 261px;
+    background: rgb(223, 223, 223);
+    margin: 40px auto 20px auto;
+}
+
+.produtos h2{
+    font-family: "Lato";
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+}
+
+.listaicon{
+    max-width: 360px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.listaicon li{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.listaicon li img{
+    display: block;
+}
+
+.brandili{
+    margin-left: 70px;
+    margin-right: 25px;
+}
+.galzerano{
+    margin-left: 25px;
+}
+
+.pampili{
+    margin-right: 80px;
+    margin-left: 6px;
+}
+
+.milon{
+    margin-right: 67px;
+}
+
+.kyly{
+    height: 70px
+}
+
+.kyly img{
+    padding-top: 17px;
+}
+
+.listbutton {
+    color: #FBFBFB;
+    background-color: #33C468;
+    font-size: 24px;
+    display: block;
+    width: 230px;
+    text-align: center;
+    margin: 60px auto;
+    padding: 13px 0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.36);
+}
+
+.listbutton:hover {
+    background-color: rgb(52, 155, 90);
+    transition: 0.6s;
+}
+
+/* contato */
+
+.contato h1{
+    color: #33C468;
+    font-size: 36px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.contato h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 261px;
+    background: #E8E8E8;
+    margin: 20px auto 40px auto;
+}
+
+.contato div{
+    width: 520px;
+    float: left;
+}
+
+.contato div::before, .contato div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contato h2{
+    font-size: 24px;
+    color: #252525;
+    text-align: center;
+}
+
+.contato h2::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid #F6243E;
+    margin-bottom: 2px;
+    margin-right: 5px;
+
+}
+
+.contato h3{
+    text-align: center;
+    color: #33C468;
+    padding-bottom: 30px;
+}
+
+.contato h3::before{
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: #E8E8E8;
+    display: block;
+    margin: 5px auto 52px auto;
+}
+
+
+.mapa img{
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.20);
+} 
+
+
+.buttonred{
+    display: block;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.buttonred a{
+    background-color: #D60F0F;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 21px;
+    color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.30);
+}
+
+.mensagem h2::after{
+    content: "";
+    width: 265px;
+    height: 2px;
+    background-color: #E8E8E8;
+    display: block;
+    margin: 5px auto 30px auto;
+}
+
+.mensagem{
+    margin-left: 55px;
+}
+
+.line{
+    display: block;
+    border-left: 3px solid #F6F6F6;
+    padding-left: 55px;
+
+}
+
+.form button{
+    float: right;
+}
+.form{
+    width: 535px;
+}
+
+.form label{
+    display: block;
+    color: #252525;
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form input{
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    width: 480px;
+    border: 3px solid #33C468;
+    border-radius: 5px;
+    background: none;
+    color: #252525;
+    padding: 9px 5px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Lato",Arial, Helvetica, sans-serif;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
+}
+
+
+.form textarea{
+    display: block;
+    box-sizing: border-box;
+    height: 100px;
+    width: 480px;
+    border: 3px solid #33C468;
+    border-radius: 5px;
+    background: none;
+    color: #252525;
+    padding: 9px 5px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    resize: none;
+    font-family: "Lato",Arial, Helvetica, sans-serif;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.16);
+}
+
+.form button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #D60F0F;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 21px;
+    color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.36);
+    font-family: "Fredoka one";
+}
+
+.form button:hover, .buttonred a:hover{
+    background-color: rgb(155, 15, 15);
+    transition: 0.6s;
+}
+
+.horarios-info, .contato-info,.redes_sociais-info{
+    max-width: 360px;
+    margin: 0 10px;
+    padding-top: 70px;
+}
+
+.horarios-info h2, .contato-info h2,.redes_sociais-info h2{
+    font-size: 28px;
+}
+
+.horarios-info h2::before, .contato-info h2::before,.redes_sociais-info h2::before{
+    margin-bottom: 3px;
+}
+
+.horarios-info h2::after, .contato-info h2::after,.redes_sociais-info h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 150px;
+    background: #E8E8E8;
+    margin: 5px auto 20px auto;
+}
+
+.redes_sociais-info h2::after{
+    width: 210px;
+}
+
+.redes_sociais-info img{
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.redes_sociais-info img::after,.redes_sociais-info img::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.redes_sociais-info a::after,.redes_sociais-info a::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.redes_sociais-info p{
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    padding-top: 3px;
+    color: #252525;
+    padding-left: 35px;
+}
+
+.redes_sociais-info a{
+    display: block;
+    margin-left: 100px;
+    height: 15px;
+}
+
+.contato-info p{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 5px;
+    color: #252525;
+}
+
+.contato-info p::before{
+    content: "";
+
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.whatsicon::before{
+    background: url("../img/whatsapp.svg");
+    width: 18px;
+    height: 18px;
+}
+
+.telicon::before{
+    background: url("../img/telefoneicon.svg");
+    width: 19px;
+    height: 19px;
+}
+
+.mailicon::before{
+    background: url("../img/emailicon.svg");
+    width: 20px;
+    height: 15px;
+}
+
+.horarios-info p{
+    margin-left: 70px;
+    padding-top: 7px;
+    color: #252525;
+}
+
+.horarios-info p::before{
+    content: "";
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    background-color: #39CE52;
+    border-radius: 50%;
+    margin-bottom: 0.3px;
+    margin-right: 7px;
+    color: #252525;
+}
+
+/* footer */
+
+.quebra{
+    background-color: rgb(50, 197, 104);
+    margin-top: 70px;
+
+}
+
+.siga{
+    float: left;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.siga::after, .siga::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.quebra p:nth-child(1){
+    color: white;
+}
+
+.quebra p{
+    font-size: 18px;
+}
+
+.quebra a{
+    font-size: 18px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.ppreto{
+    color: #252525;
+}
+
+.logoinsta{
+    position: relative;
+    top: 10px;
+    right: -55px;
+}
+
+.bebe img{
+    display: block;
+    float: left;
+}
+
+.linkinstagram{
+    display: block;
+    margin-top: 100px;
+    margin-left: 750px;
+}
+
+.bebe{
+    margin-top: 20px;
+}
+
+.fotoinsta img{
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.45);
+}
+
+.quebra ul{
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+
+
+.quebra ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.quebra ul li img{
+    display: block;
+}
+
+.footer{
+    background-color: #2FB45F;
+}
+
+.footer h2{
+    float: left;
+    color: white;
+    font-size: 14px;
+    padding: 15px 0;
+    letter-spacing: 1px;
+    display: block;
+    margin-right: 10px;
+}
+
+.footer a{
+    padding-top: 15px;
+    color: white;
+    display: block;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* Responsivo */
+
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+
+    .end-header h3 {
+        margin-left: 255px;
+    }
+    
+
+/* nval */
+
+.sec3::before{
+    content: "";
+    height: 171px;
+    width: 130px;
+    display: block;
+    background: url("../img/child.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -370px;
+}
+
+    .sec1,.sec2,.sec3{
+        max-width: 300px;
+    
+    }
+
+    .sec1 p,.sec2 p,.sec3 p{
+        max-width: 250px;
+
+    }
+
+    /* contato */
+
+.contato div{
+    width: 460px;
+    float: left;
+}
+
+.mensagem{
+    margin-left: 25px;
+}
+
+.line{
+    border-left: 2px solid #F6F6F6;
+    padding-left: 25px;
+}
+
+.form{
+    width: 460px;
+}
+
+.form label{
+    margin-bottom: 7px;
+}
+
+.form input{
+    height: 45px;
+    width: 430px;
+    margin-bottom: 7px;
+}
+
+
+.form textarea{
+    height: 100px;
+    width: 430px;
+}
+
+
+.horarios-info, .contato-info,.redes_sociais-info{
+    max-width: 300px;
+    margin: 0 10px;
+    padding-top: 70px;
+}
+
+.horarios-info p{
+    margin-left: 50px;
+}
+
+
+.redes_sociais-info a{
+    display: block;
+    margin-left: 70px;
+    height: 15px;
+}
+
+
+/* footer */
+
+.siga{
+    float: left;
+    margin-left: 110px;
+    margin-top: 90px;
+}
+
+.linkinstagram{
+    display: block;
+    margin-top: 100px;
+    margin-left: 670px;
+}
+
+}
+
+@media (min-width: 740px) and (max-width: 1000px){
+    .container{
+        max-width: 740px;
+    }
+
+    .end-header h3 {
+        margin-left: 145px;
+    }
+    
+
+/* nval */
+
+.sec3::before{
+    position: relative;
+    display: none;
+}
+
+    .sec1,.sec2,.sec3{
+        max-width: 380px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    
+    }
+
+    .sec1 p,.sec2 p,.sec3 p{
+        max-width: 360px;
+        font-size: 18px;
+    }
+
+    /* contato */
+
+.contato div{
+    width: 550px;
+    float: none;
+    margin: 0 auto;
+}
+
+.mensagem{
+    margin-left: 25px;
+    padding-top: 50px;
+}
+
+.line{
+    border-left: none;
+    padding-left: 25px;
+}
+
+.buttonred{
+    display: block;
+    padding-top: 30px;
+    text-align: right;
+}
+
+
+.form{
+    width: 550px;
+}
+
+.form label{
+    margin-bottom: 10px;
+}
+
+.form input{
+    height: 55px;
+    width: 525px;
+    margin-bottom: 10px;
+}
+
+
+.form textarea{
+    height: 120px;
+    width: 525px;
+}
+
+.form button{
+    margin-bottom: 0px
+}
+
+.horarios-info, .contato-info,.redes_sociais-info{
+    max-width: 300px;
+    margin: 0 10px;
+    padding-top: 30px;
+}
+
+
+.horarios-info p{
+    margin-left: 50px;
+}
+
+
+.redes_sociais-info a{
+    display: block;
+    margin-left: 70px;
+    height: 15px;
+}
+
+
+/* footer */
+
+.quebra{
+    padding-top: 10px;
+}
+
+.siga{
+    float: left;
+    margin-left: 10px;
+    margin-top: 90px;
+}
+
+.linkinstagram{
+    display: block;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.iconnv img{
+    display: none;
+}
+
+.quebra ul{
+    clear: both;
+    float: none;
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+}
+
+@media (max-width: 760px) {
+    .container{
+        max-width: 300px;
+    }
+
+    .end-header h3 {
+        margin-left: 0px;
+        display: none;
+    }
+
+    .logo img{
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .menu_nav{
+        float: none;
+    }
+
+    .menu_nav ul{
+        padding: 10px 0;
+        margin-left: 40px;
+    }
+
+    .menu_nav ul li:nth-child(1){
+        display: none;
+    }
+
+    .apresentacao-1{
+
+        padding-top: 30px;
+    }
+
+    .apresentacao-1 h1{
+
+       font-size: 32px;
+    }
+
+    .apresentacao-1 > p{
+
+        font-size: 14px;
+     }
+    
+
+    .apresentacao-1 > p::after{
+        content: "";
+        display: block;
+        margin: 25px auto;
+        width: 250px;
+        height: 2px;
+        background: #33C468;
+    }
+
+    .aloja h2{
+        font-size: 28px;
+    }
+
+    .aloja h2::after{
+        display: none;
+        
+        
+    }
+
+    .ap_parag{
+        max-width: 280px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    
+    .ap_parag p{
+        display: block;
+        font-size: 16px;
+        max-width: 280px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+
+/* nval */
+
+
+.sec3::before{
+    position: relative;
+    display: none;
+}
+
+    .sec1,.sec2,.sec3{
+        max-width: 300px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    
+    }
+
+    .sec1 p,.sec2 p,.sec3 p{
+        max-width: 280px;
+    }
+
+    .logobco{
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .logobco img{
+        margin: 0px;
+        margin: 30px auto;
+        
+    }
+
+    /* produtos */
+
+    .produtos h1{
+        text-align: center;
+        font-size: 32px;
+        color: #33C468;
+        padding-top: 40px;
+    }
+    
+    .produtos h1::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 190px;
+        background: #E8E8E8;
+        margin: 15px auto 20px auto;
+    }
+    
+    .produtos p{
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    
+    .produtos p::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 190px;
+        background: rgb(223, 223, 223);
+        margin: 20px auto 15px auto;
+    }
+    
+    .produtos h2{
+        font-family: "Lato";
+        font-weight: normal;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .listaicon{
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    
+    .listaicon li{
+        display: block;
+        padding-top: 20px;
+        
+    }
+
+    .listaicon li img{
+        margin: 0 auto;
+    }
+    
+    
+    .brandili{
+       margin: 0;
+    }
+    .galzerano{
+        margin-left: 0;
+    }
+    
+    .pampili{
+        margin: 0;
+    }
+    
+    .milon{
+        margin: 0;
+    }
+    
+    .kyly{
+        height: 70px
+    }
+    
+    .kyly img{
+        padding-top: 17px;
+    }
+    
+    .listbutton {
+        color: #FBFBFB;
+        background-color: #33C468;
+        font-size: 18px;
+        display: block;
+        width: 190px;
+        text-align: center;
+        margin: 40px auto;
+        padding: 10px 0;
+        border-radius: 15px;
+        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.36);
+    }
+    
+    .listbutton:hover {
+        background-color: rgb(52, 155, 90);
+        transition: 0.6s;
+    }
+
+    /* contato */
+
+.contato div{
+    width: 300px;
+    float: none;
+    margin: 0 auto;
+}
+
+.contato h1{
+    font-size: 32px;
+}
+
+.contato h3::before{
+    margin-bottom: 20px;
+}
+.contato h3{
+    font-size: 16px;
+}
+
+.mensagem{
+    margin-left: 0px;
+    padding-top: 50px;
+}
+
+.line{
+    border-left: none;
+    padding-left: 0px;
+}
+
+.buttonred{
+    display: block;
+    padding-top: 30px;
+    text-align: right;
+}
+
+
+.form{
+    width: 300px;
+}
+
+.form label{
+    margin-bottom: 10px;
+}
+
+.form input{
+    height: 50px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+
+.form textarea{
+    height: 120px;
+    width: 300px;
+}
+
+.form button{
+    margin-bottom: 0px
+}
+
+.horarios-info, .contato-info,.redes_sociais-info{
+    max-width: 300px;
+    margin: 0 10px;
+    padding-top: 30px;
+}
+
+
+.horarios-info p{
+    margin-left: 50px;
+}
+
+
+.redes_sociais-info a{
+    display: block;
+    margin-left: 70px;
+    height: 15px;
+}
+
+
+/* footer */
+
+.quebra{
+    padding-top: 10px;
+    margin-top: 40px;
+}
+
+.siga{
+    float: none;
+    margin-left: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ppreto{
+    text-align: center;
+}
+
+.linkinstagram{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.logoinsta img{
+    margin-left: -40px;
+}
+
+.linkinstagram{
+    display: none;
+}
+
+.iconnv img{
+    display: none;
+}
+
+.quebra ul{
+    clear: both;
+    float: none;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer h2{
+    font-size: 14px;
+}
+
+}
+
