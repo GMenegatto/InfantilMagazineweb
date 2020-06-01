@@ -1314,14 +1314,15 @@ body h1, h2, h3{
 }
 
 .form button{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-size: 18px;
+
 }
 
 .horarios-info, .contato-info,.redes_sociais-info{
     max-width: 300px;
     margin: 0 10px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .horarios-info h2, .contato-info h2,.redes_sociais-info h2{
@@ -1341,7 +1342,7 @@ body h1, h2, h3{
 }
 
 .horarios-info p{
-    margin-left: 35px;
+    margin-left: 45px;
 }
 
 
@@ -1405,6 +1406,20 @@ body h1, h2, h3{
 
 .footer{
     margin-top: 30px;
+}
+
+.footer h2{
+    float: none;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 0px;
+}
+
+.footer a{
+    padding-top: 0px;
+    text-align: center;
+    margin-right: 0px;
+    padding-bottom: 10px;
 }
 
 .footer h2, .footer a{
