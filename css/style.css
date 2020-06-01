@@ -1032,7 +1032,7 @@ body h1, h2, h3{
 
     .apresentacao-1{
 
-        padding-top: 30px;
+        padding-top: 60px;
     }
 
     .apresentacao-1 h1{
@@ -1082,6 +1082,10 @@ body h1, h2, h3{
 
 /* nval */
 
+    .nval h1{
+        font-size: 28px;
+    }
+
 
 .sec3::before{
     position: relative;
@@ -1092,12 +1096,22 @@ body h1, h2, h3{
         max-width: 300px;
         float: none;
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: 25px;
+        border-radius: 25px;
     
     }
 
     .sec1 p,.sec2 p,.sec3 p{
-        max-width: 280px;
+        max-width: 230px;
+        padding-top: 15px;
+    }
+
+    .sec1 h2,.sec2 h2,.sec3 h2{
+        font-size: 28px;
+    }
+
+    .sec2 h2:nth-child(3){
+        padding-top: 0px;
     }
 
     .logobco{
@@ -1220,14 +1234,41 @@ body h1, h2, h3{
 }
 
 .contato h1{
-    font-size: 32px;
+    font-size: 28px;
+}
+
+.contato h1::after{
+    margin-top: 10px;
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.contato h2{
+    font-size: 20px;
+}
+
+.contato h2::before{
+    width: 5px;
+    height: 5px;
+    margin-bottom: 1px;
+}
+
+.mensagem h2::after{
+    display: none;
+}
+
+.mensagem h2{
+    padding-bottom: 20px;
 }
 
 .contato h3::before{
     margin-bottom: 20px;
+    display: none;
 }
 .contato h3{
     font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .mensagem{
@@ -1243,7 +1284,11 @@ body h1, h2, h3{
 .buttonred{
     display: block;
     padding-top: 30px;
-    text-align: right;
+    text-align: center;
+}
+
+.buttonred a{
+    font-size: 18px;
 }
 
 
@@ -1252,13 +1297,14 @@ body h1, h2, h3{
 }
 
 .form label{
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+    font-size: 16px;
 }
 
 .form input{
-    height: 50px;
+    height: 45px;
     width: 300px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 
@@ -1268,18 +1314,34 @@ body h1, h2, h3{
 }
 
 .form button{
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    font-size: 18px;
 }
 
 .horarios-info, .contato-info,.redes_sociais-info{
     max-width: 300px;
     margin: 0 10px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
+.horarios-info h2, .contato-info h2,.redes_sociais-info h2{
+    padding-bottom: 10px;
+}
+
+.contato-info h2,.redes_sociais-info h2{
+    margin-top: 10px;
+}
+
+.horarios-info p, .contato-info p,.redes_sociais-info p{
+    font-weight: normal;
+}
+
+.horarios-info h2::after, .contato-info h2::after,.redes_sociais-info h2::after{
+    display: none;
+}
 
 .horarios-info p{
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
 
@@ -1317,6 +1379,12 @@ body h1, h2, h3{
 
 .logoinsta img{
     margin-left: -40px;
+    display: none;
+}
+
+
+.quebra{
+    display: none;
 }
 
 .linkinstagram{
@@ -1335,8 +1403,12 @@ body h1, h2, h3{
     padding-bottom: 10px;
 }
 
-.footer h2{
-    font-size: 14px;
+.footer{
+    margin-top: 30px;
+}
+
+.footer h2, .footer a{
+    font-size: 12px;
 }
 
 }
