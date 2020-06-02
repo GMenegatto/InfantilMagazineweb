@@ -8,6 +8,10 @@ body, h1 ,h2, h3, p, ul{
     margin: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 img{
     max-width: 100%;
 }
@@ -88,10 +92,10 @@ body h1, h2, h3{
 }
 
 .header{
+    background-color: white;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.08);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.08);
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.08);
-
 }
 
 .header .container{
@@ -168,7 +172,7 @@ body h1, h2, h3{
     background: url("../img/Alojastl.svg");
     background-repeat: no-repeat;
     position: absolute;
-    top: 395px;
+    top: 393px;
     margin-left: 5px;
     
     
@@ -177,7 +181,7 @@ body h1, h2, h3{
 .ap_parag{
     max-width: 490px;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .ap_parag p{
@@ -1019,6 +1023,7 @@ body h1, h2, h3{
     .logo img{
         margin-left: 50px;
         margin-bottom: 20px;
+        padding-top: 10px;
     }
 
     .menu_nav{
@@ -1100,7 +1105,7 @@ body h1, h2, h3{
         max-width: 300px;
         float: none;
         margin: 0 auto;
-        margin-top: 15px;
+        margin-top: 20px;
         border-radius: 25px;
     
     }
