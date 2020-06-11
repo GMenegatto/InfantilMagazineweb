@@ -8,13 +8,8 @@
 <h2 align=center>
 :baby: Site sendo criado para a loja Infantil Magazine
 </h2>
-</h3>
-<h2 align=center>
   <img src="https://user-images.githubusercontent.com/48417528/84343383-66f85080-ab7e-11ea-82a2-510520f294de.png" />
 
-
-
-</h2>
 
 <h2>
 :computer: Link demo
