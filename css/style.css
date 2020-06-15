@@ -341,24 +341,26 @@ body h1, h2, h3{
 }
 .galzerano{
     margin-left: 25px;
+    padding-bottom: 10px;
 }
 
 .pampili{
-    margin-right: 80px;
-    margin-left: 6px;
+    margin-right: 45px;
+    margin-left: 0px;
+
 }
 
 .milon{
-    margin-right: 67px;
+    margin-right: 60px;
+    padding-bottom: 9px;
 }
 
 .kyly{
-    height: 70px
+    height: 70px;
+    padding-bottom: 10px;
 }
 
-.kyly img{
-    padding-top: 17px;
-}
+
 
 .listbutton {
     color: #FBFBFB;
